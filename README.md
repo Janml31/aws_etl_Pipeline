@@ -46,10 +46,10 @@ python generate_data.py
 3. Run the script to convert CSV to Parquet and upload to S3:
      python convert_and_upload.py
 
-```python 03-local-csv-parqute.py 
+python 03-local-csv-parqute.py 
 Uploaded business_data_delta/0-c56c1622-361e-4264-bcbb-9cfc47803d28-0.parquet to S3://samplebucketforetl/deltatables/business_data_delta/0-c56c1622-361e-4264-bcbb-9cfc47803d28-0.parquet
 Uploaded business_data_delta/_delta_log/00000000000000000000.json to S3://samplebucketforetl/deltatables/business_data_delta/00000000000000000000.json
-Delta table uploaded to S3.```
+Delta table uploaded to S3.
 
 # sample data show Glue job script 
 glue_job_show_data.py
