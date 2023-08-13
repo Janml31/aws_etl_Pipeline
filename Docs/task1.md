@@ -19,9 +19,9 @@ e. Save the sample as a CSV file in the output location.
 # Enhanced Solution:
 The enhancement to the existing code focuses on dynamically identifying columns with data in the original data based on the columns marked as empty in the sample. If any of these columns have data in the original data, the corresponding rows are appended to the sample.
 
-# To achieve this enhancement:
+# To achieve this enhancement
 
-    The code first collects a dynamic sample from the data as before.
+The code first collects a dynamic sample from the data as before.
     It identifies empty columns in the sample and checks for their presence in the original data.
     For each empty column in the sample:
     The original data is filtered to retrieve non-empty rows in that column.
