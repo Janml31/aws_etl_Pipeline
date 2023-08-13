@@ -53,7 +53,7 @@ Delta table uploaded to S3.```
 
 # sample data show Glue job script 
 glue_job_show_data.py
-jananiedujl31
+Jananiedujl@31
 # Process Data with AWS Glue
 Create an AWS Glue job to process the data:
 Navigate to AWS Glue Console.
